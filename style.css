@@ -1,0 +1,544 @@
+/*
+Theme name: Hélène Dodier
+Author: Claire Bourdalé - Arroweb
+Author URI: http://www.arroweb.net;
+Description: Template site officiel Hélène Dodier
+Version: 1.0
+*/
+
+
+/*
+ *
+ * 1 - GENERALITES
+ * 2 - ALIGNEMENTS
+ * 3 - CAPTIONS
+ * 4 - GALLERIES
+ * 5 - NAV - MENU PRINCIPAL
+ * 6 - REGLAGE DU TOGGLE
+ * 7 - BANDEAU ROSE FRONT PAGE
+ * 8 - MAIN CONTENT FRONT PAGE
+ * 9 - FOOTER 1 (GRIS)
+ * 10 - FOOTER 2 (PETIT NOIR)
+ * 11 - FIL D'ARIANE (BREADCRUMB)
+ * 12 - PAGES INTERNES (POSTS ET STATIQUES)
+ * 13 - SIDEBARS (ENCARTS DROITE LOGOS + CAGNOTTE)
+ *
+ */
+
+
+/**
+ *
+ * 1 - GENERALITES
+ *
+ */
+
+body 
+{ 
+	padding-top: 50px; 
+}
+
+.rose{
+	color: #e9638e;
+}
+
+.btn-primary{
+ 	margin-bottom: 25px;
+ 	background-color: #CA1C54 !important;
+ 	border-color: #A10C3C !important;
+}
+
+/**
+ *
+ * 2 - ALIGNEMENTS
+ *
+ */
+
+.alignleft {
+	display: inline;
+	float: left;
+	padding-right: 10px;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	padding-left: 10px;
+}
+
+.aligncenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/**
+ *
+ * 3 - CAPTIONS
+ *
+ */
+
+.wp-caption {
+	margin-bottom: 1.6em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0;
+}
+
+.wp-caption-text {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Noto Sans", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	padding: 0.5em 0;
+}
+
+
+/**
+ *
+ * 4 - GALLERIES
+ *
+ */
+
+.gallery {
+	margin-bottom: 1.6em;
+}
+
+.gallery-item {
+	display: inline-block;
+	padding: 1.79104477%;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-icon img {
+	margin: 0 auto;
+}
+
+.gallery-caption {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	display: block;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	padding: 0.5em 0;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+
+/**
+ *
+ * 5 - NAV - MENU PRINCIPAL
+ *
+ */
+
+.navbar-inverse {
+  background-color: #000000 !important;
+  border: 0px !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff !important;
+  font-size: 0.85em !important;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #e9638e !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff !important;
+  background-color: #e9638e !important;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-right: 100px! important;
+}
+
+/**
+ *
+ * 6 - REGLAGE DU TOGGLE
+ *
+ */
+
+ @media (max-width: 1000px) { /* Remplacez 123px par la taille de votre choix */
+	.navbar-header {
+	float: none;
+	}
+	.navbar-toggle {
+	display: block;
+	}
+	.navbar-collapse {
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-collapse.collapse {
+	display: none!important;
+	}
+	.navbar-nav {
+	float: none!important;
+	margin: 7.5px -15px;
+	}
+	.navbar-nav>li {
+	float: none;
+	}
+	.navbar-nav>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	.navbar-text {
+	float: none;
+	margin: 15px 0;
+	}
+	/* cette classe est à ajouter lorsque que vous utilisez une version de Bootstap supérieure ou égale à la 3.1.0 */
+	.navbar-collapse.collapse.in { 
+	display: block!important;
+	}
+	.collapsing {
+	overflow: hidden!important;
+	}
+}
+
+/**
+ *
+ * 7 - BANDEAU ROSE FRONT PAGE
+ *
+ */
+
+ .bandeau-rose{
+ 	background-color: #e9638e;
+ 	min-height: 200px;
+ }
+
+ .bandeau-rose h2{
+ 	color: #fff;
+	font-family: 'Dancing Script', cursive;
+ 	font-size: 3em;
+ 	padding-bottom: 18px;
+ 	padding-top: 25px;
+ }
+
+ .bandeau-rose h3{
+ 	color: #fff;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 2em;
+ 	text-align: center;
+ }
+
+ .bandeau-rose p{
+ 	color: rgba(255,255,255,0.7);
+ 	font-size: 1.2em;
+ 	line-height: 1.6em;
+ 	text-align: center;
+ }
+
+ .bandeau-rose .fa{
+ 	background-color: #fff;
+ 	color: #e9638e;
+ 	padding: 12px;
+ 	border-radius: 60px;
+ 	margin-right: 10px;
+ }
+
+ .bandeau-rose .btn-primary:hover{
+ 	background-color: #A10C3C !important;
+ }
+
+/**
+ *
+ * 8 - MAIN CONTENT FRONT PAGE
+ *
+ */
+
+ .main-content h1{
+ 	color: #e9638e;
+ 	font-family: 'Roboto', sans-serif;
+ 	padding-top: 50px;
+ 	padding-bottom: 5px;
+ 	margin: 0px;
+ }
+
+ .main-content h2{
+ 	color: #636363;
+ 	font-family: 'Roboto', sans-serif;
+ 	padding-top: 5px;
+ 	padding-bottom: 15px;
+ 	margin: 0px;
+ }
+
+.main-content h3{
+ 	color: #e9638e;
+ 	font-family: 'Roboto', sans-serif;
+ 	text-align: center !important;
+}
+
+ .main-content p{
+ 	color: #777777;
+ 	font-size: 1.2em;
+ 	padding-bottom: 10px;
+ 	line-height: 1.5em !important;
+ }
+
+ .main-content .description{
+ 	text-align: center !important;
+ 	font-size: 1em !important;
+ }
+
+ .section-bulle{
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ }
+
+ .section-bulle a{
+ 	color: #e9638e !important;
+ 	text-decoration: none !important;
+ }
+
+/**
+ *
+ * 9 - FOOTER 1 (GRIS)
+ *
+ */
+
+.foot1{
+	background-color: #777777 ;
+}
+
+.foot1 p{
+	margin: 0px;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+.foot1 blockquote {
+	font-family: 'Dancing Script', cursive;
+	padding-top: 25px !important;
+	margin: 0 !important;
+	font-size: 2em !important;
+	border-left: 0px !important;
+	color: #fff !important;
+	text-align: center !important;
+}
+
+.foot1 .auteur{
+	color: #cecece !important;
+	text-align: right !important;
+	padding-right: 50px !important;
+	padding-bottom: 30px !important;
+}
+
+.foot1 .encart{
+	text-align: center;
+	color: #fff;
+	padding-bottom: 25px;
+}
+
+.foot1 .encart .fa{
+ 	background-color: #e9638e;
+ 	color: #fff;
+ 	padding: 15px;
+ 	border-radius: 100px;
+ 	margin-right: 10px;
+ }
+
+/**
+ *
+ * 10 - FOOTER 2 (PETIT NOIR)
+ *
+ */
+.foot2{
+	background-color: #000;
+	height:50px;
+}
+
+.foot2 p{
+	text-align: center !important;
+	font-size: 0.8em !important;
+	line-height: 50px !important;
+	color: #e9638e !important;
+}
+
+.foot2 a{
+	color: #e9638e !important;
+	text-decoration: none;
+}
+
+/**
+ *
+ * 11 - FIL D'ARIANE (BREADCRUMB)
+ *
+ */
+
+.ariane{
+	height: 50px;
+	background-color: #e9638e;
+} 
+
+.breadcrumb {
+  padding: 0px !important;
+  margin-bottom: 0px !important;
+  background-color: #e9638e;
+  border-radius: 0px !important;
+  color: #fff !important;
+  line-height: 50px !important;
+  font-size: 1em !important;
+}
+
+.breadcrumb > li {
+  display: inline-block;
+}
+
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #fff !important;
+  content: "/\00a0";
+}
+
+.breadcrumb > li a{
+	color: #fff !important;
+}
+
+.breadcrumb > .active {
+  color: #CA1C54 !important;
+  font-weight: bold !important;
+}
+
+
+/**
+ *
+ * 12 - PAGES INTERNES (POSTS ET STATIQUES)
+ *
+ */
+
+.page{
+ 	min-height: 400px;
+ 	padding-bottom: 50px;
+}
+
+.page h1{
+ 	color: #e9638e;
+ 	font-family: 'Roboto', sans-serif;
+ 	padding-top: 50px;
+ 	padding-bottom: 20px;
+ 	margin: 0px;
+}
+
+.page h2{
+ 	color: #636363;
+ 	font-family: 'Roboto', sans-serif;
+ 	padding-top: 5px;
+ 	padding-bottom: 15px;
+ 	margin: 0px;
+ }
+
+.page p{
+ 	color: #777777;
+ 	font-size: 1.2em;
+ 	padding-bottom: 10px;
+ 	line-height: 1.5em !important;
+}
+
+.page a{
+ 	color: #e9638e;
+}
+
+.page a.btn{
+	color: #fff !important;
+}
+
+.page .metas{
+	font-size: 0.8em !important;
+	font-style: italic !important;
+	padding-bottom: 5px !important;
+	margin-top: -15px !important;
+}
+
+
+
+.post-thumbnail img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+/**
+ *
+ * 13 - SIDEBARS (ENCARTS DROITE LOGOS + CAGNOTTE)
+ *
+ */
+
+ .encart-head{
+ 	margin-top: 50px;
+ 	background-color: #e9638e;
+ 	border-radius: 45px;
+ 	text-align: center;
+ 	color: #fff;
+ }
+
+ .encart-head p{
+ 	text-align: center;
+ }
+
+ .encart-head img{
+ 	padding: 30px !important;
+ }
+
+ .encart-logos{
+ 	padding-top: 20px;
+ 	text-align: center;
+ }
+
+ .encart-logos p{
+ 	color: #e9638e;
+ }
