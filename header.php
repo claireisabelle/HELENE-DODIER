@@ -36,7 +36,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="<?php bloginfo('template_url'); ?>/img/logo-helene.png" alt="Hélène Dodier" title="" /></a>
+          <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/img/logo-helene.png" alt="Hélène Dodier" title="" /></a>
         </div><!-- /.navbar-header -->
 
         <div class="container">

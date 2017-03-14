@@ -5,6 +5,7 @@
  * 3 - Excerpt Customization 'Tronquage texte'
  * 4 - Breadcrumps - Fil d'ariane
  * 5 - Widget locations
+ * 6 - Customizer File
  */
 
 
@@ -135,6 +136,15 @@ function wpb_init_widgets($id){
 
 add_action('widgets_init', 'wpb_init_widgets');
 
+
+
+
+/*
+ *
+ * 6 - Customizer File
+ *
+ */
+require get_template_directory().'/inc/customizer.php';
 
 
 		

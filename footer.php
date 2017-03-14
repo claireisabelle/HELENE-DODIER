@@ -10,9 +10,10 @@
           <div class="row">
             <div class="col-xs-12 col-sm-6 encart">
               <p>Retrouvez Hélène sur...</p>
-              <p><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i> 
-              <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-              <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></p>
+              <p>
+              <a href="<?php echo get_theme_mod('facebook_lien', '#'); ?>" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+              <a href="<?php echo get_theme_mod('twitter_lien', '#'); ?>" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+              <a href="<?php echo get_theme_mod('youtube_lien', '#'); ?>" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></p>
             </div><!-- /.col -->
             <div class="col-xs-12 col-sm-6 encart">
               <p>Soutenue par...</p>
