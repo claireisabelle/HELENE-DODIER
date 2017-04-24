@@ -29,6 +29,17 @@
                 </div><!-- /.row -->
               <?php endwhile; ?>
 
+
+                  <?php
+                  // Previous/next page navigation.
+                  the_posts_pagination(array(
+                    'prev_text' => __( '&laquo;', 'helenedodier' ),
+                    'next_text' => __( '&raquo;', 'helenedodier' ),
+                    'screen_reader_text' => __( 'Pages', 'helenedodier' ),
+                    ));
+                  ?>
+
+
             <?php else : ?>
               <?php _e('<h1>Aucun article publié</h1>'); ?>
             <?php endif; ?>

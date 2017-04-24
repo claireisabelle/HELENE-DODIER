@@ -1,8 +1,8 @@
 /*
 Theme name: Hélène Dodier
 Author: Claire Bourdalé - Arroweb
-Author URI: http://www.arroweb.net;
-Description: Template site officiel Hélène Dodier
+Author URI: http://www.arroweb.net
+Description: Template du site Internet officiel de Hélène Dodier, pilote de char à voile
 Version: 1.0
 */
 
@@ -330,6 +330,10 @@ body
  	line-height: 1.5em !important;
  }
 
+.main-content a{
+	color: #e9638e !important;
+}
+
  .main-content .description{
  	text-align: center !important;
  	font-size: 1em !important;
@@ -495,6 +499,12 @@ body
 
 .page a.btn{
 	color: #fff !important;
+}
+
+.page img{
+	display: block !important;
+  	max-width: 100% !important;
+  	height: auto !important;
 }
 
 .page .metas{

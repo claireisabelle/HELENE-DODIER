@@ -336,7 +336,7 @@
 			'type' 	  => 'theme_mod'
 		));
 
-		$wp_customize->add_control('bulle2_lien', array(
+		$wp_customize->add_control('bulle3_lien', array(
 			'label' => __('Bulle 3 Lien', 'helenedodier'),
 			'section' => 'bulle',
 			'priority' => 12
@@ -383,7 +383,7 @@
 		));
 
 		$wp_customize->add_control('bulle4_lien', array(
-			'label' => __('Bulle 3 Lien', 'helenedodier'),
+			'label' => __('Bulle 4 Lien', 'helenedodier'),
 			'section' => 'bulle',
 			'priority' => 16
 		));

@@ -13,7 +13,7 @@
             <h3><i class="<?php echo get_theme_mod('encart1_icone', 'fa fa-user-circle'); ?>" aria-hidden="true"></i> 
             <?php echo get_theme_mod('encart1_titre', 'Particuliers'); ?></h3>
             <p><?php echo get_theme_mod('encart1_description', 'Soutenez Hélène en participant au financement de son projet'); ?></p>
-            <p class="text-center"><a class="btn btn-primary" href"<?php echo get_theme_mod('encart1_lien', '#'); ?>">
+            <p class="text-center"><a class="btn btn-primary" href="<?php echo get_theme_mod('encart1_lien', '#'); ?>">
             <?php echo get_theme_mod('encart1_texte_lien', 'Soutenir Hélène'); ?></a></p>
           </div><!-- /.col -->
           
@@ -21,7 +21,7 @@
             <h3><i class="<?php echo get_theme_mod('encart2_icone', 'fa fa-industry'); ?>" aria-hidden="true"></i> 
             <?php echo get_theme_mod('encart2_titre', 'Entreprises'); ?></h3>
             <p><?php echo get_theme_mod('encart2_description', 'Sponsorisez Hélène et bénéficiez des contre-parties pour votre société'); ?></p>
-            <p class="text-center"><a class="btn btn-primary" href"<?php echo get_theme_mod('encart2_lien', '#'); ?>">
+            <p class="text-center"><a class="btn btn-primary" href="<?php echo get_theme_mod('encart2_lien', '#'); ?>">
             <?php echo get_theme_mod('encart2_texte_lien', 'Sponsoriser Hélène'); ?></a></p>
           </div><!-- /.col -->
 
@@ -29,7 +29,7 @@
             <h3><i class="<?php echo get_theme_mod('encart3_icone', 'fa fa-institution'); ?>" aria-hidden="true"></i> 
             <?php echo get_theme_mod('encart3_titre', 'Institutionnels'); ?></h3>
             <p><?php echo get_theme_mod('encart3_description', 'Accompagnez Hélène tout au long de la saison sportive'); ?></p>
-            <p class="text-center"><a class="btn btn-primary" href"<?php echo get_theme_mod('encart3_lien', '#'); ?>">
+            <p class="text-center"><a class="btn btn-primary" href="<?php echo get_theme_mod('encart3_lien', '#'); ?>">
             <?php echo get_theme_mod('encart3_texte_lien', 'Accompagner Hélène'); ?></a></p>
           </div><!-- /.col -->
 

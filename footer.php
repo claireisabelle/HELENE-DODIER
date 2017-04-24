@@ -19,7 +19,7 @@
               <p>Soutenue par...</p>
               <p>
                 <a href="http://www.nmphoto.fr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logo-nmphoto.png" alt="NMPhoto" title="NMPhoto" height="100px" /></a>
-                <a href="http://www.arrosport.com" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logo-arrosport.png" alt="Arrosport" title="Arrosport" height="100px" /></a>
+                <a href="https://www.arrosport.com" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logo-arrosport.png" alt="Arrosport" title="Arrosport" height="100px" /></a>
                 <a href="http://www.beachspirit.fr" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logo-beach-spirit.png" alt="Beach Spirit" title="Beach Spirit" height="100px" /></a>
               </p>
             </div><!-- /.col -->
@@ -29,7 +29,7 @@
       </div><!-- /.foot1 -->
 
       <div class="foot2">
-        <p><a href="">Mentions légales</a> | Crédits Photos : <a href="http://www.nmphoto.fr" target="_blank">NMPhoto</a> | Développement : <a href="http://www.arrosport.com" target="_blank">Arrosport</a></p>
+        <p><a href="https://helenedodier.com/mentions-legales/">Mentions légales</a> | Crédits Photos : <a href="http://www.nmphoto.fr" target="_blank">NMPhoto</a> | Développement : <a href="http://www.arrosport.com" target="_blank">Arrosport</a></p>
       </div><!-- /.foot2 -->
       
     </footer>

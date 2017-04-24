@@ -6,6 +6,7 @@
  * 4 - Breadcrumps - Fil d'ariane
  * 5 - Widget locations
  * 6 - Customizer File
+ * 7 - Ajout de format / styles pour l'éditeur Tiny MCE
  */
 
 
@@ -34,6 +35,18 @@ function wpb_theme_setup(){
 
     // Thumbnails 'Image à la une'
     add_theme_support( 'post-thumbnails' );
+
+    // Post Formats
+    add_theme_support( 'post-formats', array(
+		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
+	) );
+
+	add_theme_support( 'html5', array(
+		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
+	) );
+
+	add_theme_support( 'customize-selective-refresh-widgets' );
+
 }
 
 add_action('after_setup_theme', 'wpb_theme_setup');
@@ -147,4 +160,12 @@ add_action('widgets_init', 'wpb_init_widgets');
 require get_template_directory().'/inc/customizer.php';
 
 
+
+
+/*
+ *
+ * 7 - Ajout de format / styles pour l'éditeur Tiny MCE
+ *
+ */
+require get_template_directory().'/inc/editeur.php';
 		

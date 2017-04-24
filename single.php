@@ -21,6 +21,7 @@
                 <?php endif; ?>
 
                 <?php the_content(); ?>
+                <p><a href="<?php echo get_page_link(11); ?>" class="btn btn-primary blanc">Retour aux articles</a></p>
                 
               <?php endwhile; ?>
 
