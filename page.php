@@ -1,10 +1,12 @@
 <?php get_header(); ?>
 
+
     <section class="ariane">
-    	<div class="container">
-    	<?php the_breadcrumb() ?>
-		</div><!-- /.container -->
+      <div class="container">
+        <?php the_breadcrumb(); ?>
+      </div><!-- /.container -->
     </section><!-- /.ariane -->
+
 
     <section class="page">
     	<div class="container">
