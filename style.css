@@ -212,7 +212,7 @@ body
  *
  */
 
- @media (max-width: 1000px) { /* Remplacez 123px par la taille de votre choix */
+ @media (max-width: 1190px) { /* Remplacez 123px par la taille de votre choix */
 	.navbar-header {
 	float: none;
 	}
@@ -424,6 +424,12 @@ body
  *
  */
 
+@media (max-width: 640px) {
+  .ariane {
+    display:none;
+   }
+}
+
 .ariane{
 	height: 50px;
 	background-color: #e9638e;
@@ -502,7 +508,7 @@ body
 }
 
 .page img{
-	display: block !important;
+	display: inline-block !important;;
   	max-width: 100% !important;
   	height: auto !important;
 }
